@@ -12,8 +12,10 @@ The __PUT__ method processes db timestamp updates for each resource id it receiv
 
 The __GET__ method returns an updated timestamp based on the resource id.
 
+
+__NOTE__:
 ```
-__NOTE__: this is a quick write-up to demonstrate the ability to work with _go_ sql module,
+this is a quick write-up to demonstrate the ability to work with _go_ sql module,
 running parameterized and prepared statements, the ability to run multiple _goroutines_,
 work with _channels_ and _mutex_ synchronization primitives. As such, this is not a complete
 or, for that matter, a working soluiton.
